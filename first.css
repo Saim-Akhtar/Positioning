@@ -1,0 +1,31 @@
+
+.main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    border: 2px solid black;
+    min-width: 400px;
+}
+.main > h1,h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.image{
+    
+    float: left;
+    padding: 2%;
+    margin: auto;
+}
+h2{
+    clear: both;
+    margin: 3%;
+    
+}
+.main > p{
+    text-align: center;
+    margin: 3%;
+    columns: 4;
+    column-rule: 2px solid red;
+    column-gap: 5%;
+}
